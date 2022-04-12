@@ -694,6 +694,8 @@ PODS:
     - React-jsi (= 0.68.0)
     - React-logger (= 0.68.0)
     - React-perflogger (= 0.68.0)
+  - RealmJS (10.20.0-beta.4):
+    - React
   - SocketRocket (0.6.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -763,6 +765,7 @@ DEPENDENCIES:
   - React-rncore (from `../node_modules/react-native/ReactCommon`)
   - React-runtimeexecutor (from `../node_modules/react-native/ReactCommon/runtimeexecutor`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RealmJS (from `../node_modules/realm`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -855,6 +858,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/runtimeexecutor"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RealmJS:
+    :path: "../node_modules/realm"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -908,6 +913,7 @@ SPEC CHECKSUMS:
   React-rncore: 679560f76f7d96c1157eb085cb1ed7dc3eeed9ed
   React-runtimeexecutor: 9b1304f48e344c55bb3c36e13bf11461cb4da5d8
   ReactCommon: fab89a13b52f1ac42b59a0e4b4f76f21aea9eebe
+  RealmJS: af84b91dabf3e690f964d746f38c2c078e5694c3
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: 6671cf077f614314c22fd09ddf87d7abeee64e96
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a

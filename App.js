@@ -52,6 +52,23 @@ const Section = ({children, title}): Node => {
   );
 };
 
+const TestSchema = {
+  name: 'Test',
+  properties: {
+    name: 'string',
+  },
+};
+
+const realm = new Realm({
+  schema: [TestSchema],
+});
+
+realm.write(() => {
+  realm.create('Test', {name: Math.random().toString()});
+});
+
+console.log(realm.objects('Test'));
+
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
